@@ -8,7 +8,7 @@ interface ActionButtonProps {
   const ActionButton = ({ text, onClick }: ActionButtonProps) => (
     <button
       onClick={onClick}
-      className="w-full my-[0.625rem] py-2 px-4 bg-[#FFCE22] hover:bg-[#FFD84D] text-[#1F2128] font-normal rounded-[0.25rem] transition-colors duration-200"
+      className="w-full my-[0.625rem] py-2 px-4 bg-[#FFCE22] hover:bg-[#FFD84D] text-[0.875rem] leading-[1.1375rem] font-normal text-[#1F2128] rounded-[0.25rem] transition-colors duration-200"
     >
       {text}
     </button>
