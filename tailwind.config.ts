@@ -8,9 +8,8 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      boxShadow: {
+        'page-selector': '0px 0px 4px 0px #1414141A, 0px 8px 15px 0px #1414141F',
       },
     },
   },
