@@ -60,7 +60,7 @@ export default function PageSelector({ pages }: PageSelectorProps) {
       <hr className="my-[0.625rem] border-t-[0.04375rem] border-[#CDCDCD]" />
 
       <div className="mt-1">
-        {pages.map((page, index) => (
+        {pages.map((page) => (
           <PageCheckbox
             key={page}
             label={page}
