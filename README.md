@@ -1,29 +1,19 @@
 # Page Selector Component
 
-A pixel-perfect page selection component built with Next.js 14, TypeScript, and Tailwind CSS.
-
-![Component Preview](public/preview.png)
+A pixel-perfect page selection component built with Next.js, TypeScript, and Tailwind CSS.
 
 ## Tech Stack
 
-- Next.js 14
+- Next.js
 - TypeScript
 - Tailwind CSS
 - React Hooks
-
-## Features
-
-- Interactive checkbox selections
-- "Select all" functionality
-- Responsive design
-- Keyboard accessible
-- Clean, minimal UI
 
 ## Getting Started
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/page-selector-component.git
+git clone https://github.com/francisojeah/page-selector-component.git
 cd page-selector-component
 ```
 
@@ -48,16 +38,7 @@ npm run dev
 │   │       └── index.tsx
 │   ├── layout.tsx
 │   └── page.tsx
-├── lib/
-│   └── utils.ts
-└── public/
-    └── preview.png
 ```
-
-## Author
-
-Your Name
-- GitHub: [@yourusername](https://github.com/yourusername)
 
 ## License
 
